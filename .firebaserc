@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "imageuploader-b0887"
+  },
+  "targets": {
+    "imageuploader-b0887": {
+      "hosting": {
+        "image-firebase": [
+          "imageuploader-b0887"
+        ]
+      }
+    }
+  }
+}

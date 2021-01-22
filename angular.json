@@ -120,9 +120,16 @@
               "devServerTarget": "image-firebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "image-firebase"
+  "defaultProject": "image-firebase",
+  "cli": {
+    "analytics": "d4a754ff-86b4-4f03-9a18-cc79fcbd5858"
+  }
 }
